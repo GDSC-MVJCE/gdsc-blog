@@ -1,0 +1,32 @@
+body {
+    background-color:#F1F6FE;
+}
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+#nav-bar {
+    background-color: 'white';
+}
+
+#round {
+    border-radius: 50%;
+}
+
+#box {
+    display: flex;
+    column-gap: 0px;
+    align-content: space-between;
+  }
+
+#navbarStyle {
+    position: absolute;
+    color : 'white';
+    background-color:#F1F6FE;
+    left: 6.03%;
+    right: 87.87%;
+    top: 5.08%;
+    bottom: 93.53%;
+}
+
