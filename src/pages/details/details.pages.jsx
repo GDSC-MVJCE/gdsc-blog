@@ -4,7 +4,7 @@ import "./details.styles.css";
 function DetailsPage() {
   return (
     <div>
-      <h1>Details</h1>
+      <h1>Details Page</h1>
     </div>
   );
 }
