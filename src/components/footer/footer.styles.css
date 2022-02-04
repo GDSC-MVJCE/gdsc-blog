@@ -1,0 +1,8 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+#round {
+    border-radius: 50%;
+}

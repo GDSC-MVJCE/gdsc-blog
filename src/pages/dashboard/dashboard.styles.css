@@ -8,6 +8,18 @@ a {
     padding: 5px;
 }
 
+#bgcolor {
+    background-color: #F1F6FE;
+}
+
+#padding {
+    padding-top: 40px;
+}
+
+#navbarpadding {
+    padding-left: 30px;
+}
+
 #card {
     position: absolute;
     width: 500px;
@@ -29,6 +41,10 @@ a {
 #text-width {
     width: 50%;
     padding-top:auto;
+}
+
+#align {
+    text-align: left;
 }
 
 #round {
@@ -61,5 +77,16 @@ a {
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 16px;
+    border-radius: 36px;
+  }
+
+  #card {
+    display: flex;
+    width: 50%;
+    height: 30%;
+  }
+
+  #card-items {
+      padding-left: 20px;
+      padding-right: 20px;
   }
