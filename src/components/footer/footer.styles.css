@@ -1,8 +1,33 @@
-body {
-    background-color: white;
-    text-align: center;
+footer {
+  background-color: #f5f9fe;
+  padding: 50px 10vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#round {
-    border-radius: 50%;
+footer > img {
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer-content > p {
+  margin: 0;
+}
+
+.footer-content > p:nth-child(3) {
+  margin-bottom: 10px;
+}
+
+.footer-socials > img:nth-child(1) {
+  margin-right: 10px;
 }

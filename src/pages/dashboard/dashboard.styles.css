@@ -1,92 +1,95 @@
 body {
-    background-color:#F1F6FE;
-    font-family:serif;
-
+  background-color: #f1f6fe;
+  font-family: serif;
 }
+
 a {
-    text-decoration: none;
-    padding: 5px;
+  text-decoration: none;
+  padding: 5px;
 }
 
-#bgcolor {
-    background-color: #F1F6FE;
+#Dashboard-Page {
+  background-color: #f5f9fe;
 }
 
 #padding {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 #navbarpadding {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 #card {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    left: 500px;
-    top: 500px;
-
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 500px;
+  top: 500px;
 }
 
 #nav-bar {
-    background-color: 'white';
-    padding-bottom: 40px;
+  background-color: "white";
+  padding-bottom: 40px;
 }
 
 #rocket-width {
-    width: 90%;
+  width: 90%;
+}
+
+.blue-bg-btn {
+  background-color: #dde9fd;
+  color: #4285f4;
+  border: none;
+  width: 300px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.blue-bg-btn:hover {
+  background-color: #4285f4;
+  color: #dde9fd;
 }
 
 #text-width {
-    width: 50%;
-    padding-top:auto;
+  width: 50%;
+  padding-top: auto;
 }
 
 #align {
-    text-align: left;
+  text-align: left;
 }
 
 #round {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 #box {
-    display: flex;
-    column-gap: 0px;
-    align-content: space-between;
-  }
-
-#navbarStyle {
-    position: absolute;
-    color : 'white';
-    background-color:#F1F6FE;
-    left: 6.03%;
-    right: 87.87%;
-    top: 5.08%;
-    bottom: 93.53%;
+  display: flex;
+  column-gap: 0px;
+  align-content: space-between;
 }
 
 #button {
-    background-color:white;
-    border: none;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 36px;
-  }
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 36px;
+}
 
-  #card {
-    display: flex;
-    width: 50%;
-    height: 30%;
-  }
+#card {
+  display: flex;
+  width: 50%;
+  height: 30%;
+}
 
-  #card-items {
-      padding-left: 20px;
-      padding-right: 20px;
-  }
+#card-items {
+  padding-left: 20px;
+  padding-right: 20px;
+}

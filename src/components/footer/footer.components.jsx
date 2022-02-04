@@ -1,40 +1,30 @@
 import React from "react";
+import instagram from "../../assets/insta.png";
+import web from "../../assets/web.png";
 import "./footer.styles.css";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 function Footer() {
   return (
-    <MDBFooter color="white" className="font-small pt-4 mt-4">
-    <MDBContainer fluid className="text-center text-md-center">
-      <MDBRow>
-        <MDBCol>
-        <img id="round"
-          alt=""
-          src="/profile-image.jpeg"
-          width="100px"
-          height="100px"
-          position="absolute"
-          className="d-inline-block align-top"
-        />
-        <h5 className="title ">Shebin Joseph</h5>
-          <p>
-            Description about the mentor. This is a small description about him.
-          </p>
-        </MDBCol>
-        {/* <MDBCol md="6">
-          <h5 className="title ">Shebin Joseph</h5>
-          <p>
-            Description about the mentor. This is a small description about him
-          </p>
-        </MDBCol> */}
-      </MDBRow>
-    </MDBContainer>
-    <div className="footer-copyright text-center py-3">
-      <MDBContainer fluid>
-        &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
-      </MDBContainer>
-    </div>
-  </MDBFooter>
+    <footer>
+      <img alt="Mentor" src="/profile-image.jpeg" />
+
+      <div className="footer-content">
+        <h5 className="title">Shebin Joseph</h5>
+
+        <p>
+          Description about the mentor. This is a samll introduction of myself.
+        </p>
+        <p>
+          This is the second line where I am wondering what should I add about
+          myself
+        </p>
+
+        <div className="footer-socials">
+          <img src={instagram} alt="Instagram" />
+          <img src={web} alt="Website" />
+        </div>
+      </div>
+    </footer>
   );
 }
 
