@@ -1,0 +1,42 @@
+nav {
+  height: 10vh;
+  padding: 10px 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+  #left {
+    #logo {
+      margin-right: 20px;
+      width: 75px;
+      height: 75px;
+    }
+
+    div {
+      h4 {
+        font-weight: 400;
+        font-size: 21px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  #right,
+  #left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #right {
+    img {
+      margin-right: 10px;
+      border-radius: 40px;
+    }
+  }
+
+  #right > p {
+    margin: 0;
+  }
+}
