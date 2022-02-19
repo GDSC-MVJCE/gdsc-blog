@@ -3,7 +3,7 @@ a {
   padding: 5px;
 }
 
-#Dashboard-Page {
+#dashboard-page {
   #hero-section {
     display: flex;
     justify-content: space-between;
@@ -31,6 +31,7 @@ a {
 
       #hero-btn {
         margin-top: 100px;
+        width: 500px;
       }
 
       #hero-body {
@@ -58,59 +59,17 @@ a {
       }
     }
   }
-}
 
-#card {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  left: 500px;
-  top: 500px;
-}
+  #dashboard-content {
+    h4 {
+      margin-bottom: 30px;
+    }
 
-#rocket-width {
-  width: 90%;
-}
-
-#text-width {
-  width: 50%;
-  padding-top: auto;
-}
-
-#align {
-  text-align: left;
-}
-
-#round {
-  border-radius: 50%;
-}
-
-#box {
-  display: flex;
-  column-gap: 0px;
-  align-content: space-between;
-}
-
-#button {
-  background-color: white;
-  border: none;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 36px;
-}
-
-#card {
-  display: flex;
-  width: 50%;
-  height: 30%;
-}
-
-#card-items {
-  padding-left: 20px;
-  padding-right: 20px;
+    #dashboard-content-articles {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      column-gap: 30px;
+      row-gap: 50px;
+    }
+  }
 }

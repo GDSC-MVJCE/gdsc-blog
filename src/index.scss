@@ -28,19 +28,19 @@ h1 {
 
 h4 {
   font-size: 46px;
+  font-weight: 500;
 }
 
-.blue-bg-btn {
-  cursor: pointer;
-  background-color: #dde9fd;
-  color: #4285f4;
-  border: none;
-  width: 300px;
-  padding: 10px 20px;
-  transition: all 0.3s ease-in-out;
+h5 {
+  font-size: 36px;
+  font-weight: 500;
 }
 
-.blue-bg-btn:hover {
-  background-color: #4285f4;
-  color: #dde9fd;
+h6 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 400;
 }

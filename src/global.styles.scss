@@ -1,0 +1,15 @@
+.blue-bg-btn {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #dde9fd;
+  color: #4285f4;
+  border: none;
+  padding: 15px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.blue-bg-btn:hover {
+  background-color: #4285f4;
+  color: #dde9fd;
+}
