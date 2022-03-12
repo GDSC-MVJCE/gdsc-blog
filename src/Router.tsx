@@ -1,14 +1,18 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import DashboardPage from "./pages/dashboard/dashboard.pages";
+
 import DetailsPage from "./pages/details/details.pages";
+import { UsersContextProvider } from "./utils/usersContext";
+import DashboardPage from "./pages/dashboard/dashboard.pages";
 
 function Router() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path={"/"} element={<DashboardPage />} />
-        <Route path={"/details"} element={<DetailsPage />} />
-      </Routes>
+      <UsersContextProvider>
+        <Routes>
+          <Route path={"/"} element={<DashboardPage />} />
+          <Route path={"/details"} element={<DetailsPage />} />
+        </Routes>
+      </UsersContextProvider>
     </BrowserRouter>
   );
 }

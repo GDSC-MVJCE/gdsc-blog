@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import ArticleCard from "../../components/articleCard/article-card.components";
 
-import NavbarComponent from "../../components/navbar/navbar.components";
 import { ReactComponent as HeroImg } from "../../images/hero-img.svg";
 import { ReactComponent as RocketSVG } from "../../images/rocket.svg";
+import NavbarComponent from "../../components/navbar/navbar.components";
 
 import "./dashboard.styles.scss";
 

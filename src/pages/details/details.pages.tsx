@@ -1,4 +1,3 @@
-import React from "react";
 import NavbarComponent from "../../components/navbar/navbar.components";
 import ai from "../../images/ai-img.png";
 import backArrow from "../../images/back-arrow.png";
@@ -10,7 +9,9 @@ import "./details.styles.css";
 var likes = 33;
 var mentorName = "Shebin Joseph";
 
-function DetailsPage() {
+function DetailsPage({ state }: any) {
+  console.log(state);
+
   return (
     <main>
       <NavbarComponent />

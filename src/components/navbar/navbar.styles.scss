@@ -1,10 +1,12 @@
+@import "../../colours.scss";
+
 nav {
   height: 10vh;
   padding: 10px 5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: $white;
 
   #left {
     #logo {
@@ -22,7 +24,6 @@ nav {
     }
   }
 
-  #right,
   #left {
     display: flex;
     justify-content: space-between;
@@ -33,6 +34,22 @@ nav {
     img {
       margin-right: 10px;
       border-radius: 40px;
+    }
+
+    button:first-child {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    button {
+      cursor: pointer;
+      color: $blue;
+      padding: 10px 20px;
+      background-color: $light-blue;
+
+      border: none;
+      border-radius: 5px;
     }
   }
 
