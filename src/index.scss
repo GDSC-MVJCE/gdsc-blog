@@ -9,6 +9,8 @@
 }
 
 body {
+  overflow-x: hidden;
+  width: 100vw;
   color: $black;
   background-color: $white;
 }
@@ -39,10 +41,43 @@ h5 {
 }
 
 h6 {
+  font-size: 28px;
   font-weight: 400;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--black);
 }
 
 p {
   font-size: 24px;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 460px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 24px;
+  }
+
+  h6 {
+    font-size: 20px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }

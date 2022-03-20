@@ -6,6 +6,7 @@ import { ReactComponent as RocketSVG } from "../../images/rocket.svg";
 import NavbarComponent from "../../components/navbar/navbar.components";
 
 import "./dashboard.styles.scss";
+import { blogs } from "../../utils/blogs";
 
 function DashboardPage() {
   return (
@@ -53,11 +54,9 @@ function DashboardPage() {
           <h4>Article</h4>
 
           <div id="dashboard-content-articles">
-            <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
-            <ArticleCard />
+            {blogs.map((_, idx) => (
+              <ArticleCard key={idx} id={idx} />
+            ))}
           </div>
         </section>
       </div>

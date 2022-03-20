@@ -10,7 +10,7 @@ function Router() {
       <UsersContextProvider>
         <Routes>
           <Route path={"/"} element={<DashboardPage />} />
-          <Route path={"/details"} element={<DetailsPage />} />
+          <Route path={"/blog/:id"} element={<DetailsPage />} />
         </Routes>
       </UsersContextProvider>
     </BrowserRouter>

@@ -11,11 +11,7 @@ function NavbarComponent() {
     <nav>
       <div id="left">
         <LogoSVG id="logo" />
-
-        <div>
-          <h4>Google Developer Students Club</h4>
-          <h6>MVJ College of Engineering</h6>
-        </div>
+        <p>GDSC MVJCE</p>
       </div>
 
       <div id="right">
